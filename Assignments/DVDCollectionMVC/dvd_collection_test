@@ -1,0 +1,18 @@
+DROP DATABASE IF EXISTS dvd_collection_test;
+
+CREATE DATABASE dvd_collection_test;
+
+USE dvd_collection_test;
+
+CREATE TABLE IF NOT EXISTS `dvds`(
+	`dvd_id` int NOT NULL auto_increment,
+	`title` varchar(50) NOT NULL,
+	`release_date` varchar(50) NOT NULL,
+	`rating` varchar(50) NOT NULL,
+	`director` varchar(50) NOT NULL,
+	`studio` varchar(50) NOT NULL,
+	`user_rating` varchar(50) NOT NULL,
+	PRIMARY KEY (`dvd_id`)
+);
+
+	

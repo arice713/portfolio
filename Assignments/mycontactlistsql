@@ -1,0 +1,18 @@
+DROP DATABASE IF EXISTS contact_list_test;
+
+create database contact_list_test;
+
+-- I want to put a contacts table here
+-- what do I have to do first?
+USE contact_list_test;
+
+-- Create out contact table
+CREATE TABLE IF NOT EXISTS `contacts` (
+`contact_id` int not null auto_increment,
+`first_name` varchar(50) NOT NULL,
+`last_name` varchar(50) NOT NULL,
+`company` varchar(50) NOT NULL,
+`phone` varchar(10) DEFAULT NULL,
+`email` varchar(50) NOT NULL,
+PRIMARY KEY (`contact_id`)
+);

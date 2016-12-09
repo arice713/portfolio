@@ -1,0 +1,21 @@
+DROP DATABASE IF EXISTS Dvd_Collection;
+
+CREATE DATABASE DvdCollection;
+
+USE DvdCollection;
+
+DROP TABLE IF EXISTS Dvd;
+
+CREATE TABLE `Dvd`(
+`DvdId` int(11) NOT NULL AUTO_INCREMENT,
+`Title` varchar(30) NOT NULL,
+`ReleaseDate` varchar(30) DEFAULT NULL,
+`Rating` varchar(30)  default null,
+`Director` varchar(30) default null,
+`Studio` varchar(30) default null,
+`UserRating` varchar(30) default null
+); 
+INSERT INTO `DvdCollection`.`DVD` (`Title`,`ReleaseDate`,`Rating`,`Director`,`Studio`,`UserRating`) VALUES ('Hocus Pocus', 19931606, 'PG', 'Kenny Ortega','Walt Disney Pictures''10');
+INSERT INTO `DvdCollection`.`DVD` (`Title`,`ReleaseDate`,`Rating`,`Director`,`Studio`,`UserRating`) VALUES ('Casper', 19952605, 'PG', 'Brad Siberling','Universal Studios''10');
+INSERT INTO `DvdCollection`.`DVD` (`Title`,`ReleaseDate`,`Rating`,`Director`,`Studio`,`UserRating`) VALUES ('Coraline', 200505062, 'PG', 'Henry Siliek','Lika Studios''10');
+INSERT INTO `DvdCollection`.`DVD` (`Title`,`ReleaseDate`,`Rating`,`Director`,`Studio`,`UserRating`) VALUES ('Jennifers Body', 20091809, 'R', 'Karen Kusaman','20th Century Fox''10');

@@ -1,0 +1,21 @@
+1. It is a named piece of memory data.
+2.  You're reseving the memory to the code to follow.
+3. You're creating a value for that varible.
+4.yes
+5.yes
+6. void
+7.With curly braces
+8.  What the name of the method is and the following parameters.
+9. It's the type of data that is recived by the method.
+10. As many as you want.
+11.No
+12. It declares a class to follow the the keyword imported.
+13. It should start with an uppercase letter and be a noun.
+14. It just needs to start with a lowercase letter
+15. It has to be a verb, two words, and in "Camel case"  which is the first word lowercase and the second word uppercase.
+16. Its everything that is between the curly braces after public static void main.
+17.It's a container that holds a fixed number of values of the same data type.
+18. When you have a range of values that you need to include into the loop.
+19. The dowhile loop is gaurenteed to run, a while loop is not gaurenteed to run
+20. A switch statement is when you test the vaible against different cases.
+21. Scope is the accessibilty of the varible.
